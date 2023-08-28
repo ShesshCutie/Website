@@ -5,9 +5,12 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f2e0;
-    color: #4c3c32;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(img/pexels-afta-putta-gunawan-683039);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 header {

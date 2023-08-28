@@ -12,9 +12,18 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
+<<<<<<< HEAD
     font-family: cursive;
     background-color:burlywood;
     color: #4c3c32;
+=======
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(img/pexels-afta-putta-gunawan-683039);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+>>>>>>> ed66d1adc6d51a40efda02172cae3a3a3569d10a
 }
 
 header {

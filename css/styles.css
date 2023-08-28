@@ -1,21 +1,58 @@
-/* Reset some default styles */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
     box-sizing:border-box;
         font-family: "cursive";
 }
-
+.banner {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.textbox{
+    width: 200%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.textbox h1{
+    font-size: 62px;
+}
+.textbox p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
 .vision {
     padding: 100px 0;
     text-align: center;
 }
 
+<<<<<<< HEAD
 body {
     font-family: cursive;
     background-color:burlywood;
     color: #4c3c32;
 }
+=======
+>>>>>>> 9487a7856d683dbf1586d00d9bb15752dc5e77ec
 
 header {
     background-color: #47341c;
@@ -117,10 +154,15 @@ about p {
     justify-content: center;
     align-items: center;    
     background-size: cover;
+<<<<<<< HEAD
     flex-direction: column;
     margin-bottom: 50;
 
 }
+=======
+}
+
+>>>>>>> 9487a7856d683dbf1586d00d9bb15752dc5e77ec
 
 .contact h2 {
     font-size: 30px;
